@@ -38,6 +38,7 @@ on:
         type: choice
         options:
           - windows-2022
+          - go3d-machine
       ref_name:
         description: 'Git ref (main, 5.7, sha)'
         required: false
