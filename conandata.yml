@@ -3,7 +3,7 @@ requirements:
   - "uranium/5.7.2"
   - "curaengine/5.7.2"
   - "cura_binary_data/5.7.2"
-  - "fdm_materials/5.7.2"
+  - "fdm_materials/5.7.2-alpha.0+331490@go3d/testing"
   - "curaengine_plugin_gradual_flow/0.1.0-beta.3"
   - "dulcificum/0.2.0-alpha.0"
   - "pysavitar/5.3.0"
