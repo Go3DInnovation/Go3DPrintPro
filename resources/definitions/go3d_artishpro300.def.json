@@ -4,8 +4,7 @@
     "inherits": "go3d_base",
     "metadata": {
         "quality_definition": "go3d_base",
-        "visible": true,
-        "platform": "creality_ender3.3mf"
+        "visible": true
     },
     "overrides": {
         "machine_name": { "default_value": "Go3D Artish 300 Pro" },
@@ -27,8 +26,6 @@
             ]
         },
 		"machine_start_gcode": { "default_value": "G92 E0 ;Reset Extruder\nG28 ;Home\nG1 Z2.0 F3000 ;Move Z Axis up\nG1 X10.1 Y20 Z0.28 F5000.0 ;Move to start position\nG1 X10.1 Y200.0 Z0.28 F1500.0 E15 ;Draw the first line\nG1 X10.4 Y200.0 Z0.28 F5000.0 ;Move to side a little\nG1 X10.4 Y20 Z0.28 F1500.0 E30 ;Draw the second line\nG92 E0 ;Reset Extruder\nG1 Z2.0 F3000 ;Move Z Axis up" },
-        "retraction_amount": { "value": 4},
-        "retraction_speed": { "value": 25},
         "gantry_height": { "value": 25 }
     }
 }
