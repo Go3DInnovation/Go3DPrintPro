@@ -4,7 +4,7 @@
     "inherits": "sovol_base_titan",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "quality_definition": "sovol_base_titan"
     },
     "overrides":

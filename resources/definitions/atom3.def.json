@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "Daniel Kurth",
         "manufacturer": "Layer One",
         "platform": "Atom 3 bed.3mf",

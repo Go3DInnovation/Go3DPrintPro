@@ -4,7 +4,7 @@
     "inherits": "tank_m_base",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "quality_definition": "tank_m_base"
     },
     "overrides":

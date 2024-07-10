@@ -4,7 +4,7 @@
     "inherits": "sovol_base",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "Sovol",
         "has_machine_quality": false,
         "has_variants": false,

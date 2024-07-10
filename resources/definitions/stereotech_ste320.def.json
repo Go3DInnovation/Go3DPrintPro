@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "Stereotech",
         "manufacturer": "Stereotech LLC.",
         "file_formats": "text/x-gcode",

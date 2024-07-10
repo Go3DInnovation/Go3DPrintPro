@@ -4,7 +4,7 @@
     "inherits": "weedo_base",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "WEEDO",
         "manufacturer": "WEEDO",
         "file_formats": "text/x-gcode",

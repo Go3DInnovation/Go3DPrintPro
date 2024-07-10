@@ -2,7 +2,7 @@
     "version": 2,
     "name": "Goofoo Tiny",
     "inherits": "goofoo_small",
-    "metadata": { "visible": false },
+    "metadata": { "visible": true },
     "overrides":
     {
         "machine_depth": { "default_value": 100 },

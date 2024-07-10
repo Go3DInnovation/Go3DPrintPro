@@ -4,7 +4,7 @@
     "inherits": "biqu_base",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "platform": "BIQU_BX_PLATE.stl",
         "has_machine_materials": true,
         "platform_offset": [

@@ -4,7 +4,7 @@
     "inherits": "cubicon_common",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "Cubicon R&D Center",
         "manufacturer": "Cubicon",
         "file_formats": "text/x-gcode",

@@ -4,7 +4,7 @@
     "inherits": "blocks_base",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "platform": "blocks_rd50_platform.stl",
         "first_start_actions": [ "MachineSettingsAction" ],
         "has_machine_quality": true,

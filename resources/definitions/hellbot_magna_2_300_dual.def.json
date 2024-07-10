@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "Hellbot Development Team",
         "manufacturer": "Hellbot",
         "file_formats": "text/x-gcode",

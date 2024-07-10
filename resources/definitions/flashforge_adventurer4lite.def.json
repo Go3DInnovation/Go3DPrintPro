@@ -4,7 +4,7 @@
     "inherits": "flashforge_adventurer4",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "Jeremie-C"
     },
     "overrides":

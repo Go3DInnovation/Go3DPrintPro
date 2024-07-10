@@ -4,7 +4,7 @@
     "inherits": "koonovo_base",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "quality_definition": "koonovo_base"
     },
     "overrides":

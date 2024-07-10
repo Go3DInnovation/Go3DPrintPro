@@ -4,7 +4,7 @@
     "inherits": "longer_base",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "platform": "longer_cube2_platform.stl",
         "platform_offset": [
             -60,

@@ -4,7 +4,7 @@
     "inherits": "dagoma_pro_430_base",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "Dagoma",
         "manufacturer": "Dagoma",
         "machine_extruder_trains":

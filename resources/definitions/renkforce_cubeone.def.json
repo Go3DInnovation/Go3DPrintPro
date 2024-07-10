@@ -4,7 +4,7 @@
     "inherits": "goofoo_small",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "Woosh (based on RF100.ini by Conrad Electronic SE)",
         "manufacturer": "Renkforce"
     },

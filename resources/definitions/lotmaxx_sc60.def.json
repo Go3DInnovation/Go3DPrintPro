@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "lotmaxx.com",
         "manufacturer": "Lotmaxx",
         "platform": "lotmaxx_sc_10_20_platform.3mf",

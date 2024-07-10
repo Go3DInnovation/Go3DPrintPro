@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "Winbo",
         "manufacturer": "Winbo Smart Tech Co., Ltd.",
         "file_formats": "text/x-gcode",

@@ -4,7 +4,7 @@
     "inherits": "inat_base",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "platform": "inat_proton_x_buildplate.stl",
         "platform_offset": [
             0,

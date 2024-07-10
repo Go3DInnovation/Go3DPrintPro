@@ -4,7 +4,7 @@
     "inherits": "weedo_base",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "WEEFUN",
         "manufacturer": "WEEFUN",
         "file_formats": "text/x-gcode",

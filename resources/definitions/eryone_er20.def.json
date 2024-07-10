@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "Eryone3d",
         "manufacturer": "Eryone",
         "file_formats": "text/x-gcode",

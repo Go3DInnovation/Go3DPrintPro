@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "manufacturer": "Robo 3D",
         "file_formats": "text/x-gcode",
         "machine_extruder_trains": { "0": "robo_3d_r1_extruder_0" },

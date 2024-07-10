@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "Magicfirm Europe",
         "manufacturer": "Magicfirm Europe",
         "file_formats": "application/x3g",

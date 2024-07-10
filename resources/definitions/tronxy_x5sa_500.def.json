@@ -4,7 +4,7 @@
     "inherits": "tronxy_x",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "platform": "tronxy.stl",
         "quality_definition": "tronxy_x"
     },

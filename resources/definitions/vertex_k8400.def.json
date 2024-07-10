@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "manufacturer": "Velleman N.V.",
         "file_formats": "text/x-gcode",
         "platform": "Vertex_build_panel.3mf",

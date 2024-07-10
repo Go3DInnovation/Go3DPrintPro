@@ -4,7 +4,7 @@
     "inherits": "ultimaker2_plus",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "TheUltimakerCommunity",
         "manufacturer": "DXU",
         "file_formats": "text/x-gcode",

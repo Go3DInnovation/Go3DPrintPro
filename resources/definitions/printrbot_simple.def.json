@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "Calvindog717",
         "manufacturer": "Printrbot",
         "file_formats": "text/x-gcode",

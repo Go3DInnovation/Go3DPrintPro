@@ -2,7 +2,7 @@
     "version": 2,
     "name": "Goofoo Max",
     "inherits": "goofoo_near",
-    "metadata": { "visible": false },
+    "metadata": { "visible": true },
     "overrides":
     {
         "gantry_height": { "value": 0 },

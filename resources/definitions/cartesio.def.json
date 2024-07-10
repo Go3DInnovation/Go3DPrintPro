@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "Scheepers",
         "manufacturer": "MaukCC",
         "file_formats": "text/x-gcode",

@@ -2,7 +2,7 @@
     "version": 2,
     "name": "Modix V3 BIG-120X",
     "inherits": "modix_v3_base",
-    "metadata": { "visible": false },
+    "metadata": { "visible": true },
     "overrides":
     {
         "machine_depth": { "default_value": 600 },

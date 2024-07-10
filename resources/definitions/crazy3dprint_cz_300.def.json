@@ -4,7 +4,7 @@
     "inherits": "crazy3dprint_base",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "XYZprinting Software",
         "manufacturer": "Crazy3DPrint",
         "file_formats": "text/x-gcode",

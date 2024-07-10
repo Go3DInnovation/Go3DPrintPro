@@ -4,7 +4,7 @@
     "inherits": "creality_base",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "platform": "creality_ender3.3mf",
         "quality_definition": "creality_base"
     },

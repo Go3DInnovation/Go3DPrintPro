@@ -4,7 +4,7 @@
     "inherits": "atmat_signal_pro_base",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "platform": "atmat_signal_pro_platform.stl",
         "quality_definition": "atmat_signal_pro_base"
     },

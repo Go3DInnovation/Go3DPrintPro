@@ -4,7 +4,7 @@
     "inherits": "sovol_base_planetary",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "ashokvarma.com",
         "quality_definition": "sovol_base_planetary"
     },

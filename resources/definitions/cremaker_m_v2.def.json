@@ -4,7 +4,7 @@
     "inherits": "cremaker_common",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "platform": "cremaker_platform_220.obj"
     },
     "overrides":

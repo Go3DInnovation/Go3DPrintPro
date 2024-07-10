@@ -4,7 +4,7 @@
     "inherits": "flashforge_adventurer3c",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "Jeremie-C",
         "supports_network_connection": true
     },

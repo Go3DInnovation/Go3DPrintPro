@@ -4,7 +4,7 @@
     "inherits": "Geeetech_Base_Dual_Extruder",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "machine_extruder_trains":
         {
             "0": "Geeetech_Dual_Extruder_0",

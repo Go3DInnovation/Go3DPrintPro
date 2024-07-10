@@ -4,7 +4,7 @@
     "inherits": "goofoo_far",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "machine_extruder_trains":
         {
             "0": "goofoo_gemini_1st",

@@ -4,7 +4,7 @@
     "inherits": "creality_base",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "Luis Gabriel Gomez",
         "has_variants": true,
         "quality_definition": "creality_base"

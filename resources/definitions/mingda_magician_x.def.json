@@ -4,7 +4,7 @@
     "inherits": "mingda_base",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "platform": "mingda_magician_x_base.stl",
         "platform_offset": [
             0,

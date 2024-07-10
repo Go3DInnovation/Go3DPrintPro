@@ -2,7 +2,7 @@
     "version": 2,
     "name": "Modix V4 BIG-60",
     "inherits": "modix_v4_base",
-    "metadata": { "visible": false },
+    "metadata": { "visible": true },
     "overrides":
     {
         "machine_depth": { "default_value": 600 },

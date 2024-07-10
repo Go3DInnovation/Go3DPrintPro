@@ -4,7 +4,7 @@
     "inherits": "goofoo_near",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "author": "goofoo"
     },
     "overrides":

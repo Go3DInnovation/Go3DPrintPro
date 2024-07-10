@@ -4,7 +4,7 @@
     "inherits": "creality_base",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "manufacturer": "Creality3D",
         "file_formats": "text/x-gcode",
         "first_start_actions": [ "MachineSettingsAction" ],

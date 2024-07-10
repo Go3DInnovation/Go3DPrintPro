@@ -4,7 +4,7 @@
     "inherits": "vivedino_base",
     "metadata":
     {
-         "visible": false,
+        "visible": true,
         "platform": "vivedino_trex.stl",
         "machine_extruder_trains":
         {
