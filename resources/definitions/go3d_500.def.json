@@ -19,6 +19,7 @@
             "update_url": "https://ultimaker.com/firmware"
         },
         "first_start_actions": [ "DiscoverUM3Action" ],
+        "has_machine_materials": true,
         "has_machine_quality": true,
         "has_materials": true,
         "has_variants": true,
@@ -66,13 +67,6 @@
         "bridge_wall_material_flow": { "maximum_value": "100" },
         "bridge_wall_speed": { "value": "speed_wall" },
         "brim_width": { "value": "5" },
-        "build_volume_temperature":
-        {
-            "maximum_value": "max(35, min((material_bed_temperature + 20) / 2, 70))",
-            "maximum_value_warning": "max(30, min((material_bed_temperature + 10) / 2, 70))",
-            "minimum_value": "max((material_bed_temperature - 30) / 2, 30)",
-            "minimum_value_warning": "max((material_bed_temperature - 20) / 2, 30)"
-        },
         "cool_min_layer_time": { "value": 3 },
         "cool_min_layer_time_fan_speed_max": { "value": "cool_min_layer_time + 12" },
         "cool_min_speed": { "value": "round(speed_wall_0 * 1 / 2) if cool_lift_head else round(speed_wall_0 / 3)" },
