@@ -4,7 +4,7 @@
     "inherits": "imade3d_jellybox_root",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "author": "Imade3D",
         "platform": "imade3d_jellybox_platform.3mf",
         "has_machine_quality": true,

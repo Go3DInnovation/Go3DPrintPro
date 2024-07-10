@@ -4,7 +4,7 @@
     "inherits": "artillery_base",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "author": "Wilds",
         "platform": "artillery_hornet.stl",
         "platform_offset": [

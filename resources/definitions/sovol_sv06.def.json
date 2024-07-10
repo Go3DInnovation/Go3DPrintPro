@@ -4,7 +4,7 @@
     "inherits": "sovol_base_planetary",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "quality_definition": "sovol_base_planetary"
     },
     "overrides":

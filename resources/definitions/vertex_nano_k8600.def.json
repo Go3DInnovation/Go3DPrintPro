@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "manufacturer": "Velleman N.V.",
         "file_formats": "text/x-gcode",
         "machine_extruder_trains": { "0": "vertex_nano_k8600_extruder_0" },

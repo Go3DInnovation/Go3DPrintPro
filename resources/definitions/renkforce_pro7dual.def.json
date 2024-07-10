@@ -4,7 +4,7 @@
     "inherits": "goofoo_far",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "author": "Woosh (based on RF100.ini by Conrad Electronic SE)",
         "manufacturer": "Renkforce",
         "machine_extruder_trains":

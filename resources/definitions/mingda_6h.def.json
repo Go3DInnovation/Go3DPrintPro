@@ -4,7 +4,7 @@
     "inherits": "mingda_base",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "quality_definition": "mingda_base"
     },
     "overrides":

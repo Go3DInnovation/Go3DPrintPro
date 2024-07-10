@@ -4,7 +4,7 @@
     "inherits": "flyingbear_base",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "author": "oducceu",
         "platform": "flyingbear_platform.obj",
         "platform_texture": "flyingbear_platform.png",

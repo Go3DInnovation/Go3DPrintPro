@@ -4,7 +4,7 @@
     "inherits": "artillery_base",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "platform": "artillery_genius.stl",
         "platform_offset": [
             0,

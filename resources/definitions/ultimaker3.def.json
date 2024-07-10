@@ -4,7 +4,7 @@
     "inherits": "ultimaker",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "author": "Ultimaker",
         "manufacturer": "Ultimaker B.V.",
         "file_formats": "application/gzip;text/x-gcode",

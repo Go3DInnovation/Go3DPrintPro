@@ -4,7 +4,7 @@
     "inherits": "ratrig_base",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "platform": "ratrig_vminion.stl",
         "has_machine_quality": true,
         "has_variants": true,

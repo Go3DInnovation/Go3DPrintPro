@@ -4,7 +4,7 @@
     "inherits": "weedo_base",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "author": "ENTINA",
         "manufacturer": "ENTINA",
         "file_formats": "text/x-gcode",

@@ -4,7 +4,7 @@
     "inherits": "voron2_base",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "platform": "voron2_300_bed.3mf",
         "quality_definition": "voron2_base"
     },

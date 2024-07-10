@@ -4,7 +4,7 @@
     "inherits": "ratrig_vcore3_base",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "platform": "ratrig_vcore3_400.stl",
         "platform_offset": [
             0,

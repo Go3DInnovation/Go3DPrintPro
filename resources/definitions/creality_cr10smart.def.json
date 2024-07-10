@@ -4,7 +4,7 @@
     "inherits": "creality_base",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "author": "ed3d.net",
         "quality_definition": "creality_base"
     },

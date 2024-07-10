@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "manufacturer": "BFB",
         "file_formats": "text/x-gcode",
         "machine_extruder_trains": { "0": "bfb_extruder_0" },

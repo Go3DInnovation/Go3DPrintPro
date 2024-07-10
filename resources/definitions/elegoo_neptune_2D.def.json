@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "author": "Toylerrr",
         "manufacturer": "Elegoo",
         "file_formats": "text/x-gcode",

@@ -4,7 +4,7 @@
     "inherits": "lulzbot_mini_2_common",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "author": "Tom Callaway <spot@fedoraproject.org>",
         "manufacturer": "Fargo Additive Manufacturing Equipment 3D, LLC",
         "file_formats": "text/x-gcode",

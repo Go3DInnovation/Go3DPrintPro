@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "manufacturer": "Zone3D",
         "file_formats": "text/x-gcode",
         "machine_extruder_trains": { "0": "zone3d_printer_extruder_0" },

@@ -4,7 +4,7 @@
     "inherits": "snakeoil_standard_base",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "quality_definition": "snakeoil_standard_base"
     },
     "overrides":

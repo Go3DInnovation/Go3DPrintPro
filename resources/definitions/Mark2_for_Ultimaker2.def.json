@@ -4,7 +4,7 @@
     "inherits": "ultimaker2_plus",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "author": "TheUltimakerCommunity",
         "manufacturer": "Foehnsturm",
         "file_formats": "text/x-gcode",

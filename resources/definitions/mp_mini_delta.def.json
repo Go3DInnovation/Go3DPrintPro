@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "author": "MPMD V1 Facebook Group",
         "manufacturer": "Monoprice",
         "file_formats": "text/x-gcode",

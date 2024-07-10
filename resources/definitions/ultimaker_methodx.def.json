@@ -4,7 +4,7 @@
     "inherits": "ultimaker_method_base",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "author": "UltiMaker",
         "manufacturer": "Ultimaker B.V.",
         "file_formats": "application/x-makerbot",

@@ -4,7 +4,7 @@
     "inherits": "fusedform_base",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "quality_definition": "fusedform_base"
     },
     "overrides":

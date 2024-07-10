@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "author": "Alexander R\u00f6ssler",
         "manufacturer": "TheCoolTool",
         "file_formats": "text/x-ngc;text/x-gcode",

@@ -4,7 +4,7 @@
     "inherits": "vzbot_base",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "quality_definition": "vzbot_base"
     },
     "overrides":

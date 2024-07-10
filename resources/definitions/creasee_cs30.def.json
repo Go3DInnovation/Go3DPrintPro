@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "manufacturer": "Creasee",
         "machine_extruder_trains": { "0": "creasee_extruder_1" }
     },

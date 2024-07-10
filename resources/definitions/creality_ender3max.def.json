@@ -4,7 +4,7 @@
     "inherits": "creality_base",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "author": "Radlab Ecuador",
         "platform": "creality_ender3max.stl",
         "quality_definition": "creality_base"

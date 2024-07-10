@@ -4,7 +4,7 @@
     "inherits": "elegoo_base",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "author": "NARUTO",
         "quality_definition": "elegoo_base"
     },

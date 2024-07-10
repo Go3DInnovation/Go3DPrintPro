@@ -4,7 +4,7 @@
     "inherits": "malyan_m200",
     "metadata":
     {
-        "visible": true,
+         "visible": false,
         "author": "Tyler Gibson",
         "manufacturer": "Monoprice",
         "file_formats": "text/x-gcode",
