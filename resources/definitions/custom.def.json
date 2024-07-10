@@ -10,6 +10,8 @@
         "file_formats": "text/x-gcode",
         "first_start_actions": [ "MachineSettingsAction" ],
         "has_materials": true,
+        "has_variants": true,
+        "preferred_variant_name": "AA 0.4",
         "machine_extruder_trains":
         {
             "0": "custom_extruder_1",

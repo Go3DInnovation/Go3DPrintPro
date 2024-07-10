@@ -15,9 +15,9 @@ required_conan_version = ">=1.58.0 <2.0.0"
 
 
 class CuraConan(ConanFile):
-    name = "cura"
+    name = "go3d"
     license = "LGPL-3.0"
-    author = "UltiMaker"
+    author = "Go3D"
     url = "https://github.com/Ultimaker/cura"
     description = "3D printer / slicing GUI built on top of the Uranium framework"
     topics = ("conan", "python", "pyqt6", "qt", "qml", "3d-printing", "slicer")
@@ -91,9 +91,10 @@ class CuraConan(ConanFile):
 
     @property
     def _app_name(self):
-        if self._enterprise:
-            return str(self.options.display_name) + " Enterprise"
-        return str(self.options.display_name)
+        return "Go3DPrintPro"
+        # if self._enterprise:
+        #     return str(self.options.display_name) + " Enterprise"
+        # return str(self.options.display_name)
 
     @property
     def _urls(self):
@@ -225,7 +226,7 @@ class CuraConan(ConanFile):
                 continue
 
             if "package" in data:  # get the paths from conan package
-                if data["package"] == self.name:
+                if data["package"] == "cura":
                     if self.in_local_cache:
                         src_path = os.path.join(self.package_folder, data["src"])
                     else:
@@ -332,7 +333,7 @@ class CuraConan(ConanFile):
             self.options["curaengine_grpc_definitions"].shared = True
             self.options["openssl"].shared = True
         if self.conf.get("user.curaengine:sentry_url", "", check_type=str) != "":
-            self.options["curaengine"].enable_sentry = True
+            # self.options["curaengine"].enable_sentry = False
             self.options["arcus"].enable_sentry = True
             self.options["clipper"].enable_sentry = True
 
