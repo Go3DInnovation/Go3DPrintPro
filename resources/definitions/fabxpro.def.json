@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "author": "FabX",
         "manufacturer": "FabX",
         "file_formats": "text/x-gcode",

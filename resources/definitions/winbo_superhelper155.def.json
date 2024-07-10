@@ -4,7 +4,7 @@
     "inherits": "winbo_superhelper105",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "author": "Winbo",
         "manufacturer": "Winbo Smart Tech Co., Ltd.",
         "file_formats": "text/x-gcode",

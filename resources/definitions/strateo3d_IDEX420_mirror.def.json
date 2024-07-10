@@ -4,7 +4,7 @@
     "inherits": "strateo3d_IDEX420",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "author": "eMotionTech",
         "manufacturer": "eMotionTech",
         "file_formats": "text/x-gcode",

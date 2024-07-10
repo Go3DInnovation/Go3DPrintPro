@@ -4,7 +4,7 @@
     "inherits": "vzbot_base",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "platform": "vzbot_330_bed.stl",
         "quality_definition": "vzbot_base"
     },

@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "manufacturer": "Wanhao",
         "file_formats": "text/x-gcode",
         "platform": "wanhao_300_300_platform.obj",

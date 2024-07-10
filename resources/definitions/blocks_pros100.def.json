@@ -4,7 +4,7 @@
     "inherits": "blocks_base",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "platform": "blocks_pros100_platform.stl",
         "machine_extruder_trains": { "0": "blocks_pros100_extruder_0" },
         "preferred_variant_name": "0.8mm Nozzle",

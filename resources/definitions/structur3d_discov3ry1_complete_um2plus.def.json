@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "author": "Andrew Finkle, CTO",
         "manufacturer": "Structur3d.io",
         "file_formats": "text/x-gcode",

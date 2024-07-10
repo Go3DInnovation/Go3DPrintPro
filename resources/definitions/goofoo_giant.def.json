@@ -2,7 +2,7 @@
     "version": 2,
     "name": "Goofoo Giant",
     "inherits": "goofoo_near",
-    "metadata": { "visible": true },
+    "metadata": { "visible": false },
     "overrides":
     {
         "machine_depth": { "default_value": 600 },

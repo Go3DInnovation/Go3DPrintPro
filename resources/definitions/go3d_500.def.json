@@ -4,7 +4,7 @@
     "inherits": "go3d",
     "metadata":
     {
-         "visible": true,
+        "visible": true,
         "author": "Go3D",
         "manufacturer": "Go3D",
         "file_formats": "application/x-ufp;text/x-gcode",

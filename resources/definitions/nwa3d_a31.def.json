@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "author": "DragonJe",
         "manufacturer": "Nwa 3D LLC",
         "file_formats": "text/x-gcode",

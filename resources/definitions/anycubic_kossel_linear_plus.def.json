@@ -4,7 +4,7 @@
     "inherits": "anycubic_kossel",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "platform": "kossel_pro_build_platform.3mf",
         "machine_extruder_trains": { "0": "anycubic_kossel_extruder_0" },
         "platform_offset": [

@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "author": "Simon Peter (based on RF100.ini by Conrad Electronic SE)",
         "manufacturer": "Renkforce",
         "file_formats": "text/x-gcode",

@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "author": "Scheepers",
         "manufacturer": "Hybrid AM Systems",
         "file_formats": "text/x-gcode",

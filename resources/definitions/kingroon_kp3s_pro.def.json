@@ -4,7 +4,7 @@
     "inherits": "kingroon_base",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "author": "willuhmjs",
         "platform": "kingroon_kp3s.stl",
         "quality_definition": "kingroon_base"

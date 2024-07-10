@@ -4,7 +4,7 @@
     "inherits": "rigid3d_base",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "platform": "rigid3d_zero2_platform.3mf",
         "preferred_quality_type": "standard",
         "quality_definition": "rigid3d_base"

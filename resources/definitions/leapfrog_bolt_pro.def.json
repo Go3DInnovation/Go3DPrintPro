@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "author": "Karan and Vincent 20191104",
         "manufacturer": "Leapfrog B.V.",
         "file_formats": "text/x-gcode",

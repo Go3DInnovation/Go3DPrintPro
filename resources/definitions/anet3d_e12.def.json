@@ -4,7 +4,7 @@
     "inherits": "anet3d",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "machine_extruder_trains": { "0": "anet3d_extruder_0" }
     },
     "overrides":

@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "author": "GTL_180109",
         "manufacturer": "gCreate",
         "file_formats": "text/x-gcode",

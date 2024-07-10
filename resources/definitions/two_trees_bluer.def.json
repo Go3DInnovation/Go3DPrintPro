@@ -4,7 +4,7 @@
     "inherits": "two_trees_base",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "platform": "twotrees235x235_generic.stl",
         "quality_definition": "two_trees_base"
     },

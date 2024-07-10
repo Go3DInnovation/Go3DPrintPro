@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "author": "uBuild-3D",
         "manufacturer": "uBuild-3D",
         "file_formats": "text/x-gcode",

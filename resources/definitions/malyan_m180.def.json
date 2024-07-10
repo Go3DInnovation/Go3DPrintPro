@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "author": "Ghostkeeper",
         "manufacturer": "Malyan",
         "file_formats": "application/x3g",

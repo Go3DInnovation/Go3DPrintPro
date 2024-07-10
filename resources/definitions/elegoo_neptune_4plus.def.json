@@ -4,7 +4,7 @@
     "inherits": "elegoo_neptune_4",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "author": "mastercaution",
         "platform": "elegoo_platform_max.3mf",
         "platform_offset": [

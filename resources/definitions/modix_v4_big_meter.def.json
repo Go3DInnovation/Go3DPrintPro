@@ -2,7 +2,7 @@
     "version": 2,
     "name": "Modix V4 BIG-Meter",
     "inherits": "modix_v4_base",
-    "metadata": { "visible": true },
+    "metadata": { "visible": false },
     "overrides":
     {
         "machine_depth": { "default_value": 1000 },

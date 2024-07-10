@@ -4,7 +4,7 @@
     "inherits": "deltacomb_base",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "platform": "deltacomb_dc30.stl",
         "machine_extruder_trains":
         {

@@ -4,7 +4,7 @@
     "inherits": "voron2_base",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "quality_definition": "voron2_base"
     },
     "overrides":

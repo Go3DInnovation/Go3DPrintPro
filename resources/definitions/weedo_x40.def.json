@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "author": "X40-Community.org",
         "manufacturer": "Weedo",
         "file_formats": "text/x-gcode",

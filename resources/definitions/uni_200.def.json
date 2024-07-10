@@ -4,7 +4,7 @@
     "inherits": "uni_base",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "author": "Nail` Gimadeev (C)",
         "platform": "uni_200_platform.stl",
         "platform_texture": "uni.png",

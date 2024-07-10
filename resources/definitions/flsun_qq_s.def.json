@@ -4,7 +4,7 @@
     "inherits": "fdmprinter",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "author": "Cataldo URSO & Eddy Emck ",
         "manufacturer": "Flsun",
         "file_formats": "text/x-gcode",

@@ -4,7 +4,7 @@
     "inherits": "deltacomb_base",
     "metadata":
     {
-        "visible": true,
+        "visible": false,
         "platform": "deltacomb_dc30.stl",
         "preferred_variant_name": "FBE 0.40mm",
         "quality_definition": "deltacomb_base"
