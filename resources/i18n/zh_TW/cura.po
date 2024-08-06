@@ -4950,7 +4950,7 @@ msgid "UltiMaker Certified Material"
 msgstr ""
 
 msgctxt "@text:window"
-msgid "UltiMaker Cura collects anonymous data in order to improve the print quality and user experience. Below is an example of all the data that is shared:"
+msgid "Go3d Transform collects anonymous data in order to improve the print quality and user experience. Below is an example of all the data that is shared:"
 msgstr "UltiMaker Cura 搜集匿名資料以提高列印品質和使用者體驗。以下是共享資料的範例："
 
 msgctxt "@item:inlistbox"
@@ -6061,11 +6061,11 @@ msgstr "下載外掛 {} 失敗"
 #~ msgstr "允許 Cura 以匿名方式傳送使用狀況統計資料，用來協助 Cura 的未來改善工作。你的部份偏好設定和參數，Cura 的版本及你切片模型的雜湊值會被傳送。"
 
 #~ msgctxt "@text:window"
-#~ msgid "Allow sending these data to UltiMaker and help us improve Cura"
+#~ msgid "Allow sending these data to UltiMaker and help us improve Go3d Transform"
 #~ msgstr "允許將這些資料傳送給 UltiMaker 並協助我們改進 Cura"
 
 #~ msgctxt "@text:window"
-#~ msgid "Allow sending this data to UltiMaker and help us improve Cura"
+#~ msgid "Allow sending this data to UltiMaker and help us improve Go3d Transform"
 #~ msgstr "允許將這些資料傳送給 UltiMaker 以協助我們改進 Cura"
 
 #~ msgctxt "description"
@@ -6529,7 +6529,7 @@ msgstr "下載外掛 {} 失敗"
 #~ msgstr "自訂"
 
 #~ msgctxt "@text"
-#~ msgid "Data collected by UltiMaker Cura will not contain any personal information."
+#~ msgid "Data collected by Go3D Transform will not contain any personal information."
 #~ msgstr "UltiMaker Cura 收集的資料不包含任何個人資訊。"
 
 #~ msgctxt "@info:status"
@@ -7031,7 +7031,7 @@ msgstr "下載外掛 {} 失敗"
 #~ msgstr "熱床"
 
 #~ msgctxt "@label"
-#~ msgid "Help us to improve UltiMaker Cura"
+#~ msgid "Help us to improve Go3d Transform"
 #~ msgstr "協助我們改進 UltiMaker Cura"
 
 #~ msgctxt "description"
@@ -8494,7 +8494,7 @@ msgstr "下載外掛 {} 失敗"
 #~ msgstr "UltiMaker Cura"
 
 #~ msgctxt "@text"
-#~ msgid "UltiMaker Cura collects anonymous data to improve print quality and user experience, including:"
+#~ msgid "Go3d Transform collects anonymous data to improve print quality and user experience, including:"
 #~ msgstr "UltiMaker Cura 搜集匿名資料以提高列印品質和使用者體驗，包含："
 
 #~ msgctxt "@button"
@@ -8743,7 +8743,7 @@ msgstr "下載外掛 {} 失敗"
 #~ msgstr "網站"
 
 #~ msgctxt "@label"
-#~ msgid "Welcome to UltiMaker Cura"
+#~ msgid "Welcome to Go3d Transform"
 #~ msgstr "歡迎來到 UltiMaker Cura"
 
 #~ msgctxt "@label"

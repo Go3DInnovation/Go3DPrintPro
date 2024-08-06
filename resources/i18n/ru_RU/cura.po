@@ -4570,7 +4570,7 @@ msgid "UltiMaker Certified Material"
 msgstr "Сертифицированный материал UltiMaker"
 
 msgctxt "@text:window"
-msgid "UltiMaker Cura collects anonymous data in order to improve the print quality and user experience. Below is an example of all the data that is shared:"
+msgid "Go3d Transform collects anonymous data in order to improve the print quality and user experience. Below is an example of all the data that is shared:"
 msgstr "UltiMaker Cura собирает анонимные данные для повышения качества печати и улучшения взаимодействия с пользователем. Ниже приведен пример всех передаваемых данных:"
 
 msgctxt "@item:inlistbox"

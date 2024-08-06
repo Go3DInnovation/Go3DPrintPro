@@ -23,7 +23,6 @@ Popup
         id: ultimakerPlatformLinksGrid
         columns: 3
         spacing: UM.Theme.getSize("default_margin").width
-
         Repeater
         {
             model:

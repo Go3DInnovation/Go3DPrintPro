@@ -32,7 +32,7 @@ Item
         DropDownWidget
         {
             id: addNetworkPrinterDropDown
-
+            visible: false
             Layout.fillWidth: true
             Layout.fillHeight: contentShown
 
@@ -106,7 +106,6 @@ Item
         anchors.left: parent.left
         anchors.bottom: parent.bottom
         text: catalog.i18nc("@button", "Add UltiMaker printer via Digital Factory")
-        onClicked: goToUltimakerPrinter()
     }
 
     Cura.PrimaryButton
