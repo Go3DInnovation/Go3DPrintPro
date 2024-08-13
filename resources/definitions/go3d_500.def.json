@@ -46,7 +46,6 @@
         "acceleration_wall": { "value": "acceleration_print" },
         "acceleration_wall_0": { "value": "acceleration_wall" },
         "acceleration_wall_x": { "value": "acceleration_wall" },
-        "adhesion_type": { "value": "'skirt'" },
         "bridge_enable_more_layers": { "value": "True" },
         "bridge_fan_speed_2": { "value": "(cool_fan_speed_max + cool_fan_speed_min) / 2" },
         "bridge_settings_enabled": { "value": "True" },
@@ -74,7 +73,6 @@
             "value": "(1 + (skin_material_flow-infill_sparse_density) / 100 if infill_sparse_density > skin_material_flow else 1) * material_flow"
         },
         "infill_overlap": { "value": "0" },
-        "infill_pattern": { "value": "'zigzag' if infill_sparse_density > 50 else 'triangles'" },
         "infill_sparse_density": { "maximum_value": "100" },
         "infill_wipe_dist": { "value": "0" },
         "inset_direction": { "value": "'inside_out'" },
@@ -85,7 +83,6 @@
         "machine_depth": { "default_value": 240 },
         "machine_end_gcode": { "default_value": "" },
         "machine_extruder_count": { "default_value": 2 },
-        "machine_gcode_flavor": { "default_value": "Griffin" },
         "machine_head_with_fans_polygon":
         {
             "default_value": [
@@ -124,7 +121,7 @@
         "material_flow_layer_0":
         {
             "maximum_value": "100",
-            "value": "95"
+            "value": "100"
         },
         "material_initial_print_temperature":
         {
@@ -163,8 +160,8 @@
         "retraction_hop_enabled": { "value": "True" },
         "retraction_hop_only_when_collides": { "value": "True" },
         "retraction_min_travel": { "value": 1 },
-        "retraction_prime_speed": { "value": "15" },
-        "retraction_speed": { "value": "25" },
+        "retraction_prime_speed": { "value": "10" },
+        "retraction_speed": { "value": "10" },
         "roofing_material_flow":
         {
             "maximum_value": "100",
@@ -174,7 +171,7 @@
         "skin_material_flow":
         {
             "maximum_value": "100",
-            "value": "material_flow * 0.93"
+            "value": "material_flow * 1.0"
         },
         "skin_material_flow_layer_0":
         {
@@ -199,7 +196,7 @@
         "speed_layer_0":
         {
             "maximum_value": "min(machine_max_feedrate_x, machine_max_feedrate_y)",
-            "value": "30"
+            "value": "20"
         },
         "speed_prime_tower":
         {
@@ -209,7 +206,7 @@
         "speed_print":
         {
             "maximum_value": "min(machine_max_feedrate_x, machine_max_feedrate_y)",
-            "value": "50"
+            "value": "60"
         },
         "speed_print_layer_0":
         {
@@ -241,7 +238,11 @@
             "maximum_value": "min(machine_max_feedrate_x, machine_max_feedrate_y)",
             "value": "100"
         },
-        "speed_travel_layer_0": { "maximum_value": "min(machine_max_feedrate_x, machine_max_feedrate_y)" },
+        "speed_travel_layer_0":
+        {
+            "maximum_value": "min(machine_max_feedrate_x, machine_max_feedrate_y)",
+            "value": "50"
+        },
         "speed_wall":
         {
             "maximum_value": "min(machine_max_feedrate_x, machine_max_feedrate_y)",
@@ -263,7 +264,7 @@
             "value": "speed_wall"
         },
         "support_angle": { "value": "60" },
-        "support_bottom_distance": { "value": "support_z_distance * 2" },
+        "support_bottom_distance": { "value": "support_z_distance" },
         "support_bottom_height": { "value": "support_interface_height" },
         "support_bottom_material_flow":
         {
@@ -273,7 +274,6 @@
         "support_brim_enable": { "value": "True" },
         "support_fan_enable": { "value": "True" },
         "support_interface_enable": { "value": "True" },
-        "support_interface_height": { "value": "layer_height * 2" },
         "support_interface_material_flow": { "maximum_value": "100" },
         "support_material_flow":
         {
