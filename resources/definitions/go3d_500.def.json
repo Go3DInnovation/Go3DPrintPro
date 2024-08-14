@@ -263,7 +263,7 @@
             "maximum_value": "min(machine_max_feedrate_x, machine_max_feedrate_y)",
             "value": "speed_wall"
         },
-        "support_angle": { "value": "60" },
+        "support_angle": { "value": "50" },
         "support_bottom_distance": { "value": "support_z_distance" },
         "support_bottom_height": { "value": "support_interface_height" },
         "support_bottom_material_flow":
@@ -290,7 +290,6 @@
         "support_z_distance": { "value": "max(0.2, layer_height)" },
         "switch_extruder_retraction_amount": { "value": "10" },
         "switch_extruder_retraction_speeds": { "value": "retraction_speed" },
-        "top_bottom_thickness": { "value": "wall_thickness" },
         "travel_avoid_distance": { "value": "3 if extruders_enabled_count > 1 else machine_nozzle_tip_outer_diameter * 2" },
         "travel_avoid_supports": { "value": "True" },
         "wall_0_inset": { "value": "0" },
