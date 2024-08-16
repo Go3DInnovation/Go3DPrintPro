@@ -10,6 +10,7 @@ from enum import IntEnum
 import time
 from typing import Any, cast, Dict, List, Optional, Set, Tuple
 import re
+import pyArcus as Arcus  # For typing.
 from PyQt6.QtCore import QCoreApplication
 
 from UM.Job import Job

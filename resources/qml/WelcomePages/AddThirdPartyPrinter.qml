@@ -105,7 +105,7 @@ Item
         id: backButton
         anchors.left: parent.left
         anchors.bottom: parent.bottom
-        text: catalog.i18nc("@button", "Add UltiMaker printer via Digital Factory")
+        text: catalog.i18nc("@button", "Add Go3D printer via Digital Factory")
     }
 
     Cura.PrimaryButton
