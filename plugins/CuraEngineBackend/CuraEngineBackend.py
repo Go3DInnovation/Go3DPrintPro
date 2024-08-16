@@ -31,7 +31,6 @@ from cura.Utils.Threading import call_on_qt_thread
 from .ProcessSlicedLayersJob import ProcessSlicedLayersJob
 from .StartSliceJob import StartSliceJob, StartJobResult
 
-import pyArcus as Arcus
 
 if TYPE_CHECKING:
     from cura.Machines.Models.MultiBuildPlateModel import MultiBuildPlateModel
