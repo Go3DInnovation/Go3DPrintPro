@@ -51,15 +51,13 @@ env:
   STAGING: ${{ inputs.staging || false }}
 
 jobs:
-  installer:
-    # uses: Ultimaker/cura-workflows/.github/workflows/cura-installer-windows.yml@main
+  windows-installer:
     uses: Go3DInnovation/cura-workflows-2/.github/workflows/cura-installer-windows.yml@main
     with:
       cura_conan_version: ${{ inputs.cura_conan_version }}
       conan_args: ${{ inputs.conan_args }}
-      enterprise: ${{ inputs.enterprise == 'true' }}
-      staging: ${{ inputs.staging == 'true' }}
+      enterprise: ${{ inputs.enterprise }}
+      staging: ${{ inputs.staging }}
       architecture: ${{ inputs.architecture }}
       operating_system: ${{ inputs.operating_system }}
-      ref_name: ${{ inputs.ref_name }}
     secrets: inherit
