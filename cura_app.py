@@ -32,8 +32,8 @@ from cura.ApplicationMetadata import CuraAppName
 from cura.CrashHandler import CrashHandler
 
 try:
-    import sentry_sdk
-    with_sentry_sdk = True
+    # import sentry_sdk
+    with_sentry_sdk = False
 except ImportError:
     with_sentry_sdk = False
 
