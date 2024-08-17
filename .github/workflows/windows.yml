@@ -61,4 +61,5 @@ jobs:
       staging: ${{ inputs.staging == 'true' }}
       architecture: ${{ inputs.architecture }}
       operating_system: ${{ inputs.operating_system }}
+      ref_name: ${{ inputs.ref_name }}
     secrets: inherit
