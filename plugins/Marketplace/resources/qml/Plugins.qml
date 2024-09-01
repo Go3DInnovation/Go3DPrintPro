@@ -9,7 +9,7 @@ Packages
 
     bannerVisible: UM.Preferences.getValue("cura/market_place_show_plugin_banner")
     bannerIcon: UM.Theme.getIcon("Shop")
-    bannerText: catalog.i18nc("@text", "Streamline your workflow and customize your UltiMaker Cura experience with plugins contributed by our amazing community of users.")
+    bannerText: catalog.i18nc("@text", "Streamline your workflow and customize your Go3dTransform Experience with plugins contributed by our amazing community of users.")
     bannerReadMoreUrl: "https://www.go3d.in"
     onRemoveBanner: function() {
         UM.Preferences.setValue("cura/market_place_show_plugin_banner", false)
