@@ -333,7 +333,7 @@ class CuraConan(ConanFile):
             self.options["curaengine_grpc_definitions"].shared = True
             self.options["openssl"].shared = True
         if self.conf.get("user.curaengine:sentry_url", "", check_type=str) != "":
-            self.options["curaengine"].enable_sentry = False
+            # self.options["curaengine"].enable_sentry = False
             self.options["arcus"].enable_sentry = False
             self.options["clipper"].enable_sentry = False
 
