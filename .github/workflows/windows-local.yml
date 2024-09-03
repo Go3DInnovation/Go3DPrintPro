@@ -87,7 +87,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: 3.11.7
-          cache: pip
 
       - name: Install Python requirements and Create default Conan profile
         run: pip install -r .\.github\workflows\requirements-runner.txt
