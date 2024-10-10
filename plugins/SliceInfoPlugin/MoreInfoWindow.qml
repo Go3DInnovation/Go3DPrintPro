@@ -25,13 +25,13 @@ Window
 
     color: UM.Theme.getColor("main_background")
 
-    property bool allowSendData: true  // for saving the user's choice
+    property bool allowSendData: false  // for saving the user's choice
 
     onVisibilityChanged:
     {
         if (visible)
         {
-            baseDialog.allowSendData = UM.Preferences.getValue("info/send_slice_info")
+            baseDialog.allowSendData = false
             if (baseDialog.allowSendData)
             {
                 allowSendButton.checked = true
@@ -70,7 +70,7 @@ Window
                     left: parent.left
                     right: parent.right
                 }
-                text: catalog.i18nc("@text:window", "UltiMaker Cura collects anonymous data in order to improve the print quality and user experience. Below is an example of all the data that is shared:")
+                text: catalog.i18nc("@text:window", "Go3d Transform collects anonymous data in order to improve the print quality and user experience. Below is an example of all the data that is shared:")
                 wrapMode: Text.WordWrap
             }
 
@@ -107,7 +107,7 @@ Window
                 text: catalog.i18nc("@text:window", "I don't want to send anonymous data")
                 onClicked:
                 {
-                    baseDialog.allowSendData = !checked
+                    baseDialog.allowSendData = checked
                 }
             }
             Cura.RadioButton
@@ -116,7 +116,7 @@ Window
                 text: catalog.i18nc("@text:window", "Allow sending anonymous data")
                 onClicked:
                 {
-                    baseDialog.allowSendData = checked
+                    baseDialog.allowSendData = !checked
                 }
             }
         }

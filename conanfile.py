@@ -91,7 +91,7 @@ class CuraConan(ConanFile):
 
     @property
     def _app_name(self):
-        return "Go3DPrintPro"
+        return "Go3dTransform"
         # if self._enterprise:
         #     return str(self.options.display_name) + " Enterprise"
         # return str(self.options.display_name)

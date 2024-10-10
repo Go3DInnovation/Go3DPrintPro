@@ -65,11 +65,11 @@ class DrivePluginExtension(QObject, Extension):
         preferences.addPreference(Settings.AUTO_BACKUP_LAST_DATE_PREFERENCE_KEY,
                                   datetime.now().strftime(self.DATE_FORMAT))
 
-        # Register the menu item
-        self.addMenuItem(catalog.i18nc("@item:inmenu", "Manage backups"), self.showDriveWindow)
+        # # Register the menu item
+        # self.addMenuItem(catalog.i18nc("@item:inmenu", "Manage backups"), self.showDriveWindow)
 
         # Make auto-backup on boot if required.
-        CuraApplication.getInstance().engineCreatedSignal.connect(self._autoBackup)
+        # CuraApplication.getInstance().engineCreatedSignal.connect(self._autoBackup)
 
     def showDriveWindow(self) -> None:
         if not self._drive_window:
@@ -119,27 +119,28 @@ class DrivePluginExtension(QObject, Extension):
                     message_type = Message.MessageType.ERROR).show()
 
     def _onCreatingStateChanged(self, is_creating: bool = False, error_message: str = None) -> None:
-        self._is_creating_backup = is_creating
-        self.creatingStateChanged.emit()
-        if error_message:
-            Message(error_message,
-                    title = catalog.i18nc("@info:title", "Backup"),
-                    message_type = Message.MessageType.ERROR).show()
-        else:
-            self._storeBackupDate()
-        if not is_creating and not error_message:
-            # We've finished creating a new backup, to the list has to be updated.
-            self.refreshBackups()
+        pass
+        # self._is_creating_backup = is_creating
+        # self.creatingStateChanged.emit()
+        # if error_message:
+        #     Message(error_message,
+        #             title = catalog.i18nc("@info:title", "Backup"),
+        #             message_type = Message.MessageType.ERROR).show()
+        # else:
+        #     self._storeBackupDate()
+        # if not is_creating and not error_message:
+        #     # We've finished creating a new backup, to the list has to be updated.
+        #     self.refreshBackups()
 
     @pyqtSlot(bool, name = "toggleAutoBackup")
     def toggleAutoBackup(self, enabled: bool) -> None:
         preferences = CuraApplication.getInstance().getPreferences()
-        preferences.setValue(Settings.AUTO_BACKUP_ENABLED_PREFERENCE_KEY, enabled)
+        preferences.setValue(Settings.AUTO_BACKUP_ENABLED_PREFERENCE_KEY, False)
 
     @pyqtProperty(bool, notify = preferencesChanged)
     def autoBackupEnabled(self) -> bool:
         preferences = CuraApplication.getInstance().getPreferences()
-        return bool(preferences.getValue(Settings.AUTO_BACKUP_ENABLED_PREFERENCE_KEY))
+        return False
 
     @pyqtProperty("QVariantList", notify = backupsChanged)
     def backups(self) -> List[Dict[str, Any]]:

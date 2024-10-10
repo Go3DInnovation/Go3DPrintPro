@@ -22,10 +22,10 @@ def getMetaData():
         "mesh_writer": {
             "output": [
                 {
-                    "mime_type": "application/x-ufp",
+                    "mime_type": "text/x-gcode",
                     "mode": MeshWriter.OutputMode.BinaryMode,
-                    "extension": "ufp",
-                    "description": i18n_catalog.i18nc("@item:inlistbox", "UltiMaker Format Package")
+                    "extension": "gcode",
+                    "description": i18n_catalog.i18nc("@item:inlistbox", "G-code File")
                 }
             ]
         }

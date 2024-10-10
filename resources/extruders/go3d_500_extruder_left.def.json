@@ -4,7 +4,7 @@
     "inherits": "fdmextruder",
     "metadata":
     {
-        "machine": "ultimaker_factor4",
+        "machine": "go3d_500",
         "position": "0"
     },
     "overrides":

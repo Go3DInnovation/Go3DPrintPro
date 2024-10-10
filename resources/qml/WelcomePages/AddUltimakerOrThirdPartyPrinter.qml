@@ -26,7 +26,7 @@ Control
 
         UM.Label
         {
-            text: catalog.i18nc("@label", "In order to start using Cura you will need to configure a printer.")
+            text: catalog.i18nc("@label", "In order to start using Go3D Transform you will need to configure a printer.")
             font: UM.Theme.getFont("default")
             Layout.alignment: Qt.AlignTop
         }
@@ -49,32 +49,12 @@ Control
 
             PrinterCard
             {
-                id: ultimakerPrinterCard
-                Layout.alignment: Qt.AlignBottom
-                onClicked: goToUltimakerPrinter
-                text: catalog.i18nc("@button", "UltiMaker printer")
-                imageSource: UM.Theme.getImage("ultimaker_printer")
-            }
-
-            PrinterCard
-            {
                 id: thrirdPartyPrinterCard
                 Layout.alignment: Qt.AlignBottom
                 onClicked: goToThirdPartyPrinter
-                text: catalog.i18nc("@button", "Non UltiMaker printer")
+                text: catalog.i18nc("@button", "Go3D printer")
                 imageSource: UM.Theme.getImage("third_party_printer")
             }
-        }
-
-        Cura.TertiaryButton
-        {
-            id: learnMoreButton
-            Layout.alignment: Qt.AlignBottom
-            text: catalog.i18nc("@button", "Learn more about adding printers to Cura")
-            iconSource: UM.Theme.getIcon("LinkExternal")
-            isIconOnRightSide: true
-            textFont: UM.Theme.getFont("small")
-            onClicked: Qt.openUrlExternally("https://support.ultimaker.com/hc/en-us/articles/360012019239?utm_source=cura&utm_medium=software&utm_campaign=onboarding-add-printer")
         }
     }
 }

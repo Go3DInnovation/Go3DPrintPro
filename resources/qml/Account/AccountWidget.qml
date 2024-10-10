@@ -20,7 +20,7 @@ Item
         id: signInButton
 
         anchors.verticalCenter: parent.verticalCenter
-
+        enabled: false
         text: catalog.i18nc("@action:button", "Sign in")
 
         height: Math.round(0.5 * UM.Theme.getSize("main_window_header").height)

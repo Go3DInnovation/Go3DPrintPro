@@ -17,7 +17,7 @@ Item
     Button
     {
         id: applicationSwitcherButton
-
+        visible: false
         anchors.fill: parent
 
         background: Item
