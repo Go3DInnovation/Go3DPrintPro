@@ -184,8 +184,14 @@ jobs:
           Set-Content $pfxPath -Value $encodedBytes -AsByteStream;
           echo "PFX_PATH=$pfxPath" >> $env:GITHUB_OUTPUT;
 
+      - name: Sleep for 3 hours
+        run: |
+          echo Sleeping for 3 hours...
+          python -c "import time; time.sleep(10800)"
+ 
       - name: Create the Windows msi installer (Powershell)
         run: |
+          
           python ..\cura_inst\packaging\msi\create_windows_msi.py ..\cura_inst .\Go3D "${{inputs.installer_name}}.msi" "${{ inputs.app_name }}"
         working-directory: dist
 
