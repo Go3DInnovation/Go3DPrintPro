@@ -12,7 +12,7 @@ on:
 
       app_name:
         description: 'Name of the Application in the installer'
-        default: 'go3d'
+        default: 'Go3D'
         required: False
         type: string
 
@@ -62,7 +62,7 @@ env:
 
 jobs:
   cura-installer-create:
-    runs-on: [go3d-machine]
+    runs-on: [go3d-machine, Windows]
 
     steps:
       - name: Checkout repo
@@ -125,25 +125,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-conan-downloads-
             
-      - name: Checkout fdm_materials repo
-        uses: actions/checkout@v4
-        with:
-          repository: Go3DInnovation/fdm_materials 
-          ref: master
-          path: fdm_materials # Specifies the directory where the repo should be checked out
-
-      - name: Run Conan create command
-        run: |
-          conan create . fdm_materials/5.7.10@go3d/stable --build=missing
-        working-directory: fdm_materials    
-        
       - name: Create the local Package (Powershell)
         run: |
           conan create . local/test --build=missing --update -c tools.build:skip_test=True
 
       - name: Install the Packages (Powershell)
         run: |
-          conan install go3d/5.7.2@local/test  ${{ inputs.conan_args }} --build=missing --update -if cura_inst -g VirtualPythonEnv -o cura:enterprise=False -o cura:staging=False -o cura:internal=False -c tools.build:skip_test=True -s curaengine:build_type=RelWithDebInfo -s arcus:build_type=RelWithDebInfo -s clipper:build_type=RelWithDebInfo
+          conan install cura/5.7.2@local/test  ${{ inputs.conan_args }} --build=missing --update -if cura_inst -g VirtualPythonEnv -o cura:enterprise=False -o cura:staging=False -o cura:internal=False -c tools.build:skip_test=True -s curaengine:build_type=RelWithDebInfo -s arcus:build_type=RelWithDebInfo -s clipper:build_type=RelWithDebInfo
 
 
       - name: Set Environment variables for Cura (Powershell)
@@ -196,8 +184,14 @@ jobs:
           Set-Content $pfxPath -Value $encodedBytes -AsByteStream;
           echo "PFX_PATH=$pfxPath" >> $env:GITHUB_OUTPUT;
 
+      - name: Sleep for 3 hours
+        run: |
+          echo Sleeping for 3 hours...
+          python -c "import time; time.sleep(10800)"
+ 
       - name: Create the Windows msi installer (Powershell)
         run: |
+          
           python ..\cura_inst\packaging\msi\create_windows_msi.py ..\cura_inst .\Go3D "${{inputs.installer_name}}.msi" "${{ inputs.app_name }}"
         working-directory: dist
 
