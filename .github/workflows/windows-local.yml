@@ -12,7 +12,7 @@ on:
 
       app_name:
         description: 'Name of the Application in the installer'
-        default: 'Go3D'
+        default: 'go3d'
         required: False
         type: string
 
@@ -124,6 +124,17 @@ jobs:
           key: ${{ runner.os }}-conan-downloads-${{ github.run_id }}
           restore-keys: |
             ${{ runner.os }}-conan-downloads-
+
+      - name: Checkout fdm_materials repo
+        uses: actions/checkout@v4
+        with:
+          repository: Go3DInnovation/fdm_materials 
+          ref: master
+          path: fdm_materials # Specifies the directory where the repo should be checked out
+      - name: Run Conan create command
+        run: |
+          conan create . fdm_materials/5.7.10@go3d/stable --build=missing
+        working-directory: fdm_materials
             
       - name: Create the local Package (Powershell)
         run: |
@@ -131,7 +142,7 @@ jobs:
 
       - name: Install the Packages (Powershell)
         run: |
-          conan install cura/5.7.2@local/test  ${{ inputs.conan_args }} --build=missing --update -if cura_inst -g VirtualPythonEnv -o cura:enterprise=False -o cura:staging=False -o cura:internal=False -c tools.build:skip_test=True -s curaengine:build_type=RelWithDebInfo -s arcus:build_type=RelWithDebInfo -s clipper:build_type=RelWithDebInfo
+          conan install go3d/5.7.2@local/test  ${{ inputs.conan_args }} --build=missing --update -if cura_inst -g VirtualPythonEnv -o cura:enterprise=False -o cura:staging=False -o cura:internal=False -c tools.build:skip_test=True -s curaengine:build_type=RelWithDebInfo -s arcus:build_type=RelWithDebInfo -s clipper:build_type=RelWithDebInfo
 
 
       - name: Set Environment variables for Cura (Powershell)
