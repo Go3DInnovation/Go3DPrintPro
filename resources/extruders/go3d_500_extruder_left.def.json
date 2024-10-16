@@ -25,6 +25,7 @@
         "machine_extruder_start_pos_y": { "default_value": 20 },
         "machine_nozzle_head_distance": { "default_value": 2.7 },
         "machine_nozzle_offset_x": { "default_value": 0 },
-        "machine_nozzle_offset_y": { "default_value": 0 }
+        "machine_nozzle_offset_y": { "default_value": 0 },
+        "material_diameter": { "default_value": 1.75 }
     }
 }
